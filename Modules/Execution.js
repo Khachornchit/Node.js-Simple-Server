@@ -1,0 +1,2 @@
+﻿require('./CallModuleWithUpdate');
+require('./CallModuelWithoutUpdate');
