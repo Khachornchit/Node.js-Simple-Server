@@ -75,6 +75,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Events\Events.js" />
+    <Content Include="Files\ReadFile.js" />
+    <Content Include="Files\TextFile.txt" />
+    <Content Include="Files\WriteFile.js" />
     <Content Include="Object\Execution.js" />
     <Content Include="Object\Customer.js" />
     <Content Include="Object\UpdateCustomer2.js" />
@@ -93,6 +97,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
